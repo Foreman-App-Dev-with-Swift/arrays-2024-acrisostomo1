@@ -170,10 +170,12 @@ print("***PROBLEM 2.0 : FITNESS TRACKING")
  Using arrays of type String, create at least THREE lists (arrays), one for walking challenges, and one for running challenges, and one for lifting challenges - in that order. Each should have at least THREE challenges or how many times a week it's done and should be initialized using an array. Feel free to create more lists for different activities.
  */
 //Print all three of the arrays to make sure it outputs in the console.
-var possibleChallenges : [String] = ["Walking Challenges", "running challenges", "alisthenics challenges", " weightlifting challenges"]
-print(possibleChallenges)
-
-
+var walkingChallenges : [String] = ["Walk 3 miles a day"]
+print(walkingChallenges)
+var runningChallenges : [String] = ["Run 5 times a  week"]
+print(runningChallenges)
+var liftingChallenges : [String] = ["Lifted 3 time a week"]
+print(liftingChallenges)
 print("\n")
 
 print("PROBLEM 2.1 : FITNESS TRACKING")
